@@ -1,0 +1,56 @@
+div.escolha {
+    display: block;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a.home {
+    display: block;
+    margin-bottom: 20px;
+}
+
+h3.from {
+
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.escola {
+
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+table {
+    color: #333;
+    font-family: sans-serif;
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 25px;
+}
+
+
+td {
+    border: 1px solid #CCC;
+    height: 30px;
+}
+
+td {
+    background: #F3F3F3;
+    font-weight: bold;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
