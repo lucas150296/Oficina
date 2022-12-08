@@ -12,6 +12,7 @@
             <td>Data do Orçamento</td>
             <td>Excluir</td>
             <td>Edita</td>
+            <td>Abri</td>
         </tr>
         @foreach ($orcamentoss as $key => $orcamentoss)
             <tr>
@@ -22,6 +23,7 @@
                 <td><a href=""onclick="event.preventDefault(); document.getElementById('delete-form-{{ $orcamentoss->id }}').submit();">Excluir</a>
                 </td>
                 <td><a href="{{ route('edita', ['id' => $orcamentoss->id]) }}">Edita</a></td>
+                <td><a href="{{ route('abri', ['id' => $orcamentoss->id ]) }}">Abri</a></td>
                 <form id="delete-form-{{$orcamentoss->id}}"
                     + action="{{route('orcamento.delete', $orcamentoss->id)}}"
                     method="post">

@@ -24,3 +24,5 @@ Route::delete('orcamento/{id}', "pesquisaController@delete")->name('orcamento.de
 
 Route::get('/orcamento/altere', 'pesquisaController@edita')->name('edita');
 Route::post('/orcamento/altere', 'pesquisaController@update')->name('edita');
+
+Route::get('/orcamento/abri', 'pesquisaController@abri')->name('abri');

@@ -69,4 +69,12 @@ class pesquisaController extends Controller
 
         return view('home');
     }
+
+    public function abri(Request $request){
+        $CadastroDeOrcamento = CadastroDeOrcamento::all();
+
+        $id = $request->get('id');
+        return view('edita', ['CadastroDeOrcamento' => $CadastroDeOrcamento , 'id' => $id]);
+
+    }
 }

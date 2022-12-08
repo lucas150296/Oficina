@@ -56,8 +56,5 @@
             </div>
             @endif
             @endforeach
-
-    <button type="submit" class="btn btn-primary" style="margin-top: 25px">Enviar</button>
-    @csrf
 </form>
 @endsection
